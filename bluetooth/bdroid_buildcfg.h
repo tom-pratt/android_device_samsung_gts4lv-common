@@ -25,6 +25,9 @@
 
 #define BTM_DEF_LOCAL_NAME "Galaxy Tab S5e"
 
+/* Enable A2DP sink */
+#define BTA_AV_SINK_INCLUDED TRUE
+
 #define BLE_VND_INCLUDED   TRUE
 #define BTIF_HF_WBS_PREFERRED TRUE
 #define BTM_WBS_INCLUDED TRUE
