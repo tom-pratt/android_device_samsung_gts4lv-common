@@ -443,8 +443,10 @@
         <usecase name="USECASE_AUDIO_PLAYBACK_SILENCE" type="out" id="27" />
         <usecase name="USECASE_AUDIO_PLAYBACK_MMAP" type="out" id="33" />
         <usecase name="USECASE_AUDIO_RECORD_MMAP" type="in" id="33" />
-        <usecase name="USECASE_AUDIO_HFP_SCO" type="in" id="35" />
-        <usecase name="USECASE_AUDIO_HFP_SCO_WB" type="in" id="35" />
+        <usecase name="USECASE_AUDIO_HFP_SCO" type="in" id="12" />
+        <usecase name="USECASE_AUDIO_HFP_SCO_WB" type="in" id="12" />
+        <usecase name="USECASE_AUDIO_HFP_SCO" type="out" id="40" />
+        <usecase name="USECASE_AUDIO_HFP_SCO_WB" type="out" id="40" />
         <usecase name="USECASE_AUDIO_PLAYBACK_VOIP" type="out" id="16" />
         <usecase name="USECASE_AUDIO_RECORD_VOIP" type="in" id="16" />
         <usecase name="USECASE_AUDIO_A2DP_ABR_FEEDBACK" type="in" id="35" />
@@ -471,8 +473,8 @@
         <param key="true_32_bit" value="true"/>
         <!-- In the below value string, the value indicates sidetone gain in dB -->
         <param key="usb_sidetone_gain" value="35"/>
-        <param key="hfp_pcm_dev_id" value="36"/>
         <param key="hifi_filter" value="false"/>
+        <param key="hfp_pcm_dev_id" value="39"/>
     </config_params>
 
     <gain_db_to_level_mapping>
