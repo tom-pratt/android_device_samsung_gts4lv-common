@@ -2496,6 +2496,10 @@
         <ctl name="FL Digital PCM Volume" value="817" />
     </path>
 
+    <path name="voice-speaker-hfp">
+        <path name="call-speaker" />
+    </path>
+
     <path name="call-dual-speaker">
         <path name="dual-spk" />
     </path>
@@ -2556,6 +2560,10 @@
 		<ctl name="DEC1 Volume" value="92" />
         <ctl name="ADC3 Volume" value="2" />
         <ctl name="DEC2 Volume" value="92" />
+    </path>
+
+    <path name="voice-speaker-mic-hfp">
+        <path name="call-speaker-mic" />
     </path>
 
     <path name="handset-mic">
